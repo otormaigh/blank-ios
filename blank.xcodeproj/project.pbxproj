@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -44,6 +44,7 @@
 				8B6985AC2348B66A003FACA8 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		8B6985AC2348B66A003FACA8 /* Products */ = {
 			isa = PBXGroup;
@@ -111,7 +112,7 @@
 				};
 			};
 			buildConfigurationList = 8B6985A62348B66A003FACA8 /* Build configuration list for PBXProject "blank" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -284,8 +285,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"blank/Preview Content\"";
+				DEVELOPMENT_TEAM = LHQ96L2A6B;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = blank/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -294,8 +297,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = otormaigh.blank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,8 +307,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"blank/Preview Content\"";
+				DEVELOPMENT_TEAM = LHQ96L2A6B;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = blank/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -313,8 +319,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = otormaigh.blank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
